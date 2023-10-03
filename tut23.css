@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-transform:capitalize;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+
+.outer-box{
+    width: 100vw;
+    height: 120vh;
+    background: crimson;
+    background: linear-gradient(to top left,#eebdc9, #fcc5c5);
+}
+
+.inner-box{
+    /* border: 2px solid red; */
+    width:30vw;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    z-index: 2;
+    transform: translateY( -10%);
+    /* padding: 20px 40px; */
+    backdrop-filter: blur(80px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #fcc5c5;
+}
+
+header h1 {
+    /* margin:30px 20px; */
+    /* padding: 10px; */
+    color: #212121;
+    font-size: 3em;
+    /* margin-bottom: 20px; */
+
+
+}
+
+header p{
+    color: #555;
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+/* .signup-body p{
+    margin: 20px 10px;
+    padding: 10px 10px;
+} */
+
+.signup-body{
+    margin:10px;
+}
+
+.signup-body p{
+    margin: 7px 0;
+}
+
+.signup-body label{
+    display: block;
+    font:bold;
+}
+
+.signup-body p input{
+    width: 100%;
+     padding: 10px;
+     margin: top 10px;
+     border: 2px solid #ccc;
+     border-radius: 20px;
+     font-size: 1rem;
+}
+ 
+/* .signup-body p input[type="submit"] {
+    color: white;
+    background-color: #3498db;
+    cursor: pointer;
+} */
+.signup-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 140px;
+}
+
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #1685cf;
+    /* cursora: pointer; */
+}
+
+.signup-footer p{
+    text-align: center;
+    color: #555;
+    
+}
+.signup-footer a{
+    color: #2773a5;
+}
+
+.circle{
+    background: linear-gradient(to top left,#f1a4a4, #b693b6);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.c1{
+    left: 30%;
+    top: 100px;
+}
+
+.c2{
+    right: 40%;
+    bottom: 200px;
+}
+
+.c3{
+    /* right: 320px; */
+    right: 30%;
+    /* bottom: 50px; */
+}
